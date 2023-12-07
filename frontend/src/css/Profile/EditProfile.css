@@ -1,0 +1,30 @@
+.upPicture{
+    margin: 0 auto;
+}
+
+.upPicture > label{
+    float: left;
+    clear: both;
+    width: auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    cursor: pointer; 
+    margin-bottom: 30px;
+  }
+
+  .upPicture > label > input[type=file] {
+    display: none;
+}
+
+.btnUpPicture{
+    width: 230px;
+    margin: 20px 0;
+    background-color: #3187c3;
+}
+
+.btnUpPicture:hover{
+    background-color: #2e7cb1;
+}
+  

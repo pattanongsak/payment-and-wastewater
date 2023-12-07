@@ -1,0 +1,205 @@
+.formSearch{
+    display: flex;
+}
+
+.btnSearch{
+    background-color: #3187c3;
+    width: 80px;
+    margin: 10px 0px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btnSearch:hover{
+    background-color: #2971a5;
+}
+
+.iconSearch{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.listBody , .listBodyBox{   
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    grid-gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.listBodyBox  {
+    margin: 20px 0 10px;
+}
+.listBody{
+    margin: 10px 0;
+    padding: 20px 5px 20px 20px;
+}
+
+.listBodyTitle{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listBodyDetail{
+    width: 100%;
+    height: auto;
+}
+
+.userDetail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: left;   
+}
+
+
+.userTag{
+    margin-left: 15px ;
+}
+
+.userTag > .userDetail > h5{
+    font-size: larger;
+    margin-left: 5px;
+}
+
+.userTag > .userDetail > p{
+    margin-left: 10px;
+}
+
+
+.imgUser {
+    width: 90px;
+    height: 90px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imgUserRevoke{
+    display: none;
+}
+
+.userLevel{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.userLevel > p{
+    font-size: larger;
+}
+
+.userOption{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;   
+}
+
+.iconOpion{
+    margin: 0 2.5px;
+    cursor: pointer;
+}
+
+.iconColorRed:hover{
+    color: #fe330a;
+}
+.iconColorYellow:hover{
+    color: #fea621;
+}
+.iconColorBlue:hover{
+    color: #1e72bb;
+}
+
+.roleTag{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: default;
+}
+
+.colorRed{
+    background-color: #fe330a
+}
+
+.colorYellow{
+    background-color: #fea621;
+}
+
+.colorBlue{
+    color: #1e72bb;
+}
+.colorGrayIdn{
+    color: #747474;
+}
+.bgColorGrayIdn{
+    background-color: #c5c5c5;
+}
+
+.colorGreen{
+    background-color: #81c41d;
+}
+
+.colorGray{
+    background-color: #747474
+}
+
+.align-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.alingBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.alingSwitch{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pdSwitch{
+    padding : 10px 0;
+}
+
+.btnNewUser{
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.linkIcon{
+    color: #303030;
+}
+
+.userLevel > p {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .listBody {
+      grid-template-columns: none;
+      padding: 20px 10px;
+    }
+    .listBodyBox  {
+    display: none;
+    }
+    .listBody {
+        grid-template-columns: none;
+        padding: 20px 10px;
+    }
+    .userDetail{
+        flex-wrap: wrap;
+    }
+  }

@@ -1,0 +1,103 @@
+.tableReportOverViewX{
+    overflow:auto;
+    height: auto;
+    max-height: 700px;
+}
+
+#reportPaymantTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #reportPaymantTable td, #reportPaymantTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #reportPaymantTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #reportPaymantTable tr:hover {background-color: #dfdfdf;}
+  
+  #reportPaymantTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #227242;
+    color: white;
+    text-align: center; 
+  }
+
+
+  .th70{
+    color: #fff;
+    width: 70px;
+    padding: 0 10px;
+  }
+  .th100{
+    width: 100px;
+    padding: 0 10px;
+  }
+  .th150{
+    width: 150px;
+    padding: 0 10px;
+  }
+  .th200{
+    width: 200px;
+    padding: 0 10px;
+  }
+  .th250{
+    width: 250px;
+    padding: 0 10px;
+  }
+  .th300{
+    width: 300px;
+    padding: 0 10px;
+  }
+  .th400{
+    width: 400px;
+    padding: 0 10px;
+  }
+
+  .reportformTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  .reportformSelect{
+    width: 150px;
+    height: 50px;
+  }
+  
+  .formReportBox{
+    padding: 0 40px;
+    margin-bottom: 50px;
+  }
+  .btnDownloadExcel{
+    background-color: #227242;
+    padding: 15px 20px;
+    font-size: larger;
+    margin: 40px 0px 0px;
+  }
+  .btnDownloadExcel:hover{
+    opacity: 0.9;
+  }
+
+  .showReportData{
+    display: block;
+  }
+  .hideReportData{
+    display: none;
+  }
+    
+  
+  @media only screen and (max-width: 500px) {
+    .formReportBox{
+      padding: 0 20px;
+    }
+    .btnDownloadExcel{
+      width: 100%;
+    }
+  }

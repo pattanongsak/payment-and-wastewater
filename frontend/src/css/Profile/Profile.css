@@ -1,0 +1,90 @@
+img#profileImg {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+  border: 2px solid #303030;
+  margin-bottom: 10px;
+}
+
+img#profileImg:hover{
+    width: 190px;
+    height: 190px;
+  }
+
+.btnAccount {
+  width: 70%;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  background-color: #303030;
+}
+.btnAccount:hover {
+  background-color: #131616;
+}
+
+.btnPassword{
+  font-size: 18px;
+  width: 230px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0px 0px;
+}
+
+
+.changePasswordColor{
+  background: #fe330a;
+}
+.changePasswordColor:hover{
+  background: #e02f0b;
+}
+.myOrderColor{
+  background: #1e72bb;
+}
+.myOrderColor:hover{
+  background: #1b64a3;
+}
+.editProfileColor{
+  background: #131616;
+  /* background: #fea621; */
+}
+.editProfileColor:hover{
+  background: #030303;
+  /* background: #eb9c25; */
+}
+
+
+.iconEditImg {
+  margin-right: 10px;
+}
+
+.fontSize16{
+    font-size: 16px;
+    background-color: #eee;
+    border: none;
+}
+
+.registered{
+    margin: 20px 0 10px 0;
+}
+
+#mg30,.mg30{
+    margin-bottom: 30px;
+}
+
+.changePassword{
+  width: 65%;
+}
+
+.iconChangePassword{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+

@@ -1,0 +1,24 @@
+.successBox{
+    margin: 30px 30px;
+}
+
+.successBoby{
+    margin: 30px 0px;
+}
+
+.successBoby > p {
+    margin: 20px;
+    padding: 0px 160px;
+}
+
+.successIcon{
+    color: #3187c3;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .successBoby > p {
+        padding: 0px 5px;
+        margin: 20px 0px;
+    }
+  }

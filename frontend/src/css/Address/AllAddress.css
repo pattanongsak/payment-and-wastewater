@@ -1,0 +1,191 @@
+.formSearch{
+    display: flex;
+}
+
+.btnSearch{
+    background-color: #3187c3;
+    width: 80px;
+    margin: 10px 0px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btnSearch:hover{
+    background-color: #2971a5;
+}
+
+.iconSearch{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.listAddressBody , .listAddressBodyBox{   
+    height: auto;
+    display: grid;
+    /* grid-template-columns: 80% 20%; */
+    grid-template-columns: 60% 20% 20%;
+    grid-gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.listAddressBodyBox  {
+    margin: 20px 0 10px;
+}
+.listAddressBody{
+    margin: 10px 0;
+    padding: 20px 5px 20px 20px;
+}
+
+.listBodyTitle{
+    width: 100%;
+    height: 40px;
+    /* border: #35b solid 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listBodyDetail{
+    width: 100%;
+    height: auto;
+    /* border: #35b solid 1px; */
+}
+
+.listaddressDetail{
+    width: 100%;
+    height: 100%;
+    /* padding: 50px; */
+    /* border: #f55 solid 1px; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: left;
+}
+
+.listaddressTitleDetail{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between; 
+}
+.listaddressSubDetail{
+    display: flex;
+    justify-content: right;
+}
+
+.addressTag{
+    margin-left: 15px ;
+    /* border: #105 solid 1px; */
+}
+
+.addressTag > .listaddressDetail > h5{
+    font-size: larger;
+    margin-left: 5px;
+}
+
+.addressTag > .listaddressDetail > p{
+    /* font-size: small; */
+    margin-left: 10px;
+}
+.userLevel{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    /* border: #f55 solid 1px; */
+}
+
+.userLevel > p{
+    font-size: larger;
+}
+
+.addressOption{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;   
+}
+
+
+.iconOpion{
+    margin: 0 2.5px;
+    cursor: pointer;
+}
+
+.iconColorRed:hover{
+    color: #fe330a;
+}
+.iconColorYellow:hover{
+    color: #fea621;
+}
+
+.roleTag{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.colorRed{
+    background-color: #fe330a
+}
+.colorYellow{
+    background-color: #fea621;
+}
+.colorGreen{
+    background-color: #81c41d;
+}
+.colorBlue{
+    color: #1e72bb;
+}
+
+.colorADTRed{
+    color: #fe330a
+}
+.colorADTGreen{
+    color: #81c41d;
+}
+.colorADTGray{
+    color: #4e4e4e;
+}
+.gapADT{
+    gap: 10px;
+}
+
+
+
+.linkIcon{
+    color: #303030;
+}
+
+.linkAddress{
+    text-decoration: none;
+}
+
+.userLevel > p {
+    font-size: 16px;
+}
+
+.iconPaymentDetail{
+    gap: 10px;
+    background-color: #1e72bb;
+    padding: 10px 20px;
+    border-radius: 17px;
+    color: #fff;
+}
+.iconPaymentDetail:hover{
+    background-color: #fff;
+    border: #1e72bb inset 8px;
+    color: #000;
+}
+
+@media only screen and (max-width: 1024px) {
+    .listAddressBody {
+      grid-template-columns: none;
+      padding: 20px 10px;
+    }
+    .listAddressBodyBox  {
+    display: none;
+    }
+  }
