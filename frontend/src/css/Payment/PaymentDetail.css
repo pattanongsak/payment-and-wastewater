@@ -1,0 +1,223 @@
+.addressTitleColor{
+    color: #3187c3;
+    margin: 5px 0 20px;
+}
+.TopicFlex{
+    display: flex;
+}
+.addressTopicIcon{
+    padding-left: 10px;
+    color: #3187c3;
+}
+.addressPaymentColor{
+    color: #3187c3;
+}
+
+.paymentBody{
+    display: grid;
+    grid-template-columns: 100px 300px auto 200px;
+}
+.paymentTitle{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.paymentSelect{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.paymentSelectColor{
+    background-color : rgb(167, 255, 226);
+}
+
+.paymentSelectMonth{
+    display: block;
+}
+
+.gapSelectOption{
+    margin: 0 10px;
+}
+
+.formYeartSelectOption{
+    width: 150px;
+    padding: 7px 15px;
+}
+.formTypePaymentSelectOption{
+    padding: 7px 15px;
+}
+
+.selectPaymentGrid {
+    display: flex;
+    align-items: center;
+}
+
+.selectPayment{
+    display: flex;
+    align-items: center;
+}
+
+.selectionPaymentGrid{
+    display: flex;
+}
+
+.tableOverView{
+    overflow-x:auto;
+}
+
+#addressPaymantTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #addressPaymantTable td, #addressPaymantTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #addressPaymantTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #addressPaymantTable tr:hover {background-color: #ddd;}
+  
+  #addressPaymantTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #303030;
+    color: white;
+    text-align: center;
+  }
+
+  .tbWidth1{
+    width: 10%;
+  }
+  .tbWidth2{
+    width: 25%;
+  }
+  .tbWidth3{
+    width: 40%;
+  }
+  .tbWidth4{
+    width: 25%;
+  }
+
+  .chkBox{
+    width: 30px;
+  }
+
+  .statusColor1{
+    color: #FF47C0;
+  }
+  .statusColor2{
+    color: #28a745;
+  }
+  .statusColor3{
+    color: #f80808;
+  }
+
+  .useredColorBox{
+    margin: 5px 0 20px;
+  }
+  .useredColor1{
+    color: #fe330a;
+  }
+  .useredColor2{
+    color: #fea621;
+  }
+  .useredColor3{
+    color: #81c41d;
+  }
+
+  .btnDisabled ,.btnAddressPayment{
+    width: 500px;
+    padding: 15px 20px;
+    font-size: larger;
+    margin: 40px 0 0px;
+  }
+  .btnAddressPayment{
+    background-color: #3ea4e9;
+  }
+  .btnAddressPayment:hover{
+    background-color: #3187c3;
+  }
+  .btnDisabled{
+    background-color: #a5a5a5;
+  }
+  .btnDisabled:hover{
+    background-color: #a5a5a5;
+  }
+
+  .btnIconCheckBox{
+    padding: 5px 0 0;
+  }
+  .btnCheckAll{
+    color: #15ff00;
+  }
+  .btnClearCheck{
+    color: #f80808;
+  }
+  .sumTotalPrice{
+    font-size: 20px;
+    color: #00ff33;
+  }
+  .itemPriceColor{
+    font-size: 20px;
+    color: #2aca4a;
+  }
+
+  .ordHistoryBox{
+    width: 100%;
+    height: max-content;
+  }
+  
+  .ordHistoryModel{
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 70%;
+    margin: 20px auto;
+    height: max-content;
+  }
+
+  .ordHistroyImgSlip{
+    width: auto;
+    height: 300px;
+    cursor: pointer;
+    border: #aaa solid 3px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.ordHistroyImgSlip:hover{
+    border: #3187c3 solid 3px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .ordHistroyImgSlip{
+    width: 100%;
+    height: auto;
+}  
+}
+
+  @media only screen and (max-width: 800px) {
+    .ordHistoryModel{
+      width: 100%;
+      margin: 20px auto;      
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    .selectionPaymentGrid {
+      display: block;
+    }
+    #addressPaymantTable {
+        width: 400px;
+    }
+    .btnAddressPayment{
+      width: 100%;
+    }
+  }

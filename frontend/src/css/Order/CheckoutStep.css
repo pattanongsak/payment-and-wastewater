@@ -1,0 +1,12 @@
+.alternativeLabel{
+    width: 100%;
+    margin: 0 auto;
+ }
+ 
+ .StepLabel{
+     text-align: center;
+ }
+ 
+ .StepLabelBlock{
+     display: block;
+ }

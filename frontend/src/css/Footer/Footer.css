@@ -1,0 +1,31 @@
+footer hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #666;
+    margin: 0;
+    padding: 0;
+}
+
+footer h3{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+footer p{
+    color: #bbb;
+    letter-spacing: 0px;
+}
+
+footer p.ct{
+    padding: 0 40px;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #303030;
+}
+
+

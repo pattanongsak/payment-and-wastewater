@@ -1,0 +1,31 @@
+
+.btnRegsiter{
+  background-color: rgb(77, 1, 77);
+}
+.btnEditProfile {
+  background-color: #3187c3;
+}
+.btnEditProfile:hover {
+  background-color: #2a71a3;
+}
+.btnCancel {
+  background-color: #fe330a;
+}
+.btnCancel:hover {
+  background-color: #df2f0c;
+}
+
+img#registerImage,
+img#updateImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  /* border: 6px solid #303030; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+

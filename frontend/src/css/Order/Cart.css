@@ -1,0 +1,55 @@
+.pmmTitle > h2 {
+  margin-bottom: 5px;
+}
+.pmmTitle > h4 {
+  margin-bottom: 20px;
+  padding: 0 25px;
+}
+
+.pmmBody > .ppmDetail > h1 {
+  margin-bottom: 10px;
+}
+.pmmBody > .ppmDetail > p {
+  width: 250px;
+}
+.pmmBody > .ppmDetail > h3 {
+  margin: 15px 0;
+}
+
+.totalPriceItem {
+  margin-top: 20px;
+}
+.totalColor {
+  color: #0c1;
+}
+.PriceItem {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.pmmFooter {
+  margin: 10px 0 30px;
+}
+
+.btnPayment,
+.btnHome,
+.btnRegsiter,
+.btnEditProfile,
+.btnCancel {
+  width: 230px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 5px 0px;
+}
+
+.btnPayment {
+  background-color: #1e72bb;
+}
+.btnPayment:hover {
+  opacity: 0.8;
+}
+.btnHome {
+  background-color: #808080;
+}

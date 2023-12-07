@@ -1,0 +1,123 @@
+.boxShadow {
+  margin: 0 20px;
+  border-radius: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.boxShadowRow {
+  margin-top: 20px;
+}
+
+.OdrBoxTitle {
+  padding: 30px;
+}
+
+.OrdBoxInfo {
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.OdrBoxRow {
+  width: 100%;
+}
+
+.OdrBoxTitleColor {
+  border-radius: 15px;
+  padding: 20px;
+  color: #fff;
+}
+.OdrDetailBoxTitleColor {
+  background-color: #3187c3;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.OdrBoxTitleColorS1 {
+  background-color: #ff47c0;
+}
+.OdrBoxTitleColorS2 {
+  background-color: #28a745;
+}
+.OdrBoxTitleColorS3 {
+  background-color: #f80808;
+}
+
+.OdrBoxTitleSlip {
+  border-radius: none;
+  padding: 20px;
+  background-color: #3187c3;
+  color: #fff;
+}
+.OdrBoxTitleFont {
+  display: flex;
+  font-size: larger;
+  align-items: center;
+  gap: 5px;
+}
+.OdrBoxTitleFont > label {
+  font-size: large;
+  color: #fff;
+}
+.OdrBoxTitleFont > .OdrPriceBox{
+    cursor: pointer;
+}
+
+.OdrBoxCol {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.OdrDetailBox {
+  width: 100%;
+}
+
+.slipInfo {
+  width: 200px;
+  cursor: pointer;
+  border: #aaa solid 3px;
+  border-radius: 15px;
+}
+.slipInfo:hover {
+  border: #3187c3 solid 3px;
+}
+.closeHistoryOrd {
+  display: none;
+}
+.openHistoryOrd {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.arrowCursor {
+  cursor: pointer;
+}
+
+.ordHistoryTitle {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.spanDetail {
+  padding-right: 15px;
+}
+
+.userfeePayment {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .OdrBoxCol {
+    grid-template-columns: none;
+  }
+  .OdrBoxTitleFont > .OdrPriceBox{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .OdrBoxTitleFont > label {
+    display: none;
+  }
+}

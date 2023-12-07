@@ -1,0 +1,114 @@
+.login-wrapper{
+    width: 80%;
+    padding: 0px 0px;
+}
+
+.vl {
+    border-left: 1px solid #ccc;
+    height: auto;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+h1.loginTitle{
+    color: #3187c3;
+}
+
+.btnLogin{
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #303030;
+}
+.btnLogin:hover{
+    background-color: #131616;
+}
+
+.spanLogin{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.iconLogin{
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #3187c3;
+    color: #303030;
+}
+
+.forget{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: smaller;
+    margin-bottom: 30px;
+}
+
+.spanForget{
+    text-decoration: none;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: right;
+}
+.spanForget:hover{
+    color: #131616;
+}
+
+.iconForget{
+    margin-left: 3px;
+    border-radius: 50%;
+    color: #777;
+}
+
+.imgLogin{
+    vertical-align: middle;
+    border-style:none ;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+}
+
+.loginSubTitleBox{
+    padding: 20px 0;
+}
+.loginSubTitleBox h2{
+    color: #3187c3;
+}
+
+.loginSubTitle{
+    padding: 0 50px;
+}
+
+.loginSub{
+    text-indent: 1.5em;
+    color: #666;
+}
+
+
+@media only screen and (max-width: 1030px){
+    .login-wrapper{
+        width: 65%;
+    }
+    .btnLogin,.forget{
+        width: 100%;
+    }
+    .vl {
+        border-top: 1px solid #ccc;
+        border-left: none;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    .login-wrapper{
+        width: 90%;
+    }
+}
+
+

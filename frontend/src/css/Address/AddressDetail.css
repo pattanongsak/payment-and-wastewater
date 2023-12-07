@@ -1,0 +1,37 @@
+.addressDetailBox ,.paymentDetailBox{
+    width: 100%;
+    /* border: 1px solid #333; */
+    /* background-color: blueviolet; */
+}
+
+.addressTopicBox , .paymentTopicBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addressTopic , .paymentTopic{
+    display: flex;
+    align-items: center;
+}
+.topicItem{
+    padding-left: 10px;
+}
+
+.addressType{
+    display: flex;
+    align-items: baseline;
+}
+
+.greenColor {
+    color: green;
+}
+.redColor {
+    color: red;
+}
+
+@media only screen and (max-width: 700px) {
+    .addressTopicBox , .paymentTopicBox{
+        display: block;
+    }
+}

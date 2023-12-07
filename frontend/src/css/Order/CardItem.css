@@ -1,0 +1,57 @@
+.cardItemHeader , .cardItemBody{
+    /* grid-template: 50% 50%; */
+    display: flex;
+}
+
+.cardItemBox{
+    padding: 20px 40px;
+    border: 1px solid #808080;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.btnHeaderBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnDelectOrd{
+    background-color: #ffffff;
+    color: #dc3545;
+    border: #dc3545 solid 1px;
+    padding: 5px 20px;
+}
+.btnDelectOrd:hover{
+    background-color: #dc3545;
+    color: #ffffff;
+    border: #dc3545 solid 1px;
+    padding: 5px 20px;
+}
+
+.cardItemHeader{
+    margin-bottom: 10px;
+}
+
+.cardBody{
+    margin-top: 0px;
+}
+.cardGridItem{
+    width: 100%;
+}
+.cardGridItemCol2{
+    padding: 0px 0px 0px 40px;
+}
+.cardGridSubItem{
+    padding: 7px;
+}
+
+@media only screen and (max-width: 800px) {
+    .iconEditImg{
+        margin: 0;
+        padding: 0;
+    }
+    .btnDelectTextOrd{
+        display: none;  
+    }
+  }

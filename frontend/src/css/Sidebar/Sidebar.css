@@ -1,0 +1,101 @@
+.sidebarLink {
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+  height: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.loginLink{
+  position: absolute;
+  right: 0;
+  display: flex;
+  width: auto;
+  text-decoration: none;
+}
+
+.loginLink > p{
+  margin-right: 30px;
+  color: #fff;
+}
+
+.loginLink > p:hover{
+  color: #303030;
+}
+
+.sidebarLink:hover,
+.sidebarLink:focus,
+.sidebarLink:active {
+  background: #dbeffe;
+  color: #1c96eb;
+  border-left: 6px solid #1c96eb;
+  cursor: pointer;
+}
+
+
+.sidebarLabel {
+  margin-left: 16px;
+}
+
+.dropdowLink {
+  background: #fff;
+  height: 60px;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.dropdowLink:hover,
+.dropdowLink:focus,
+.dropdowLink:active {
+  background: #dbeffe;
+  color: #1c96eb;
+  border-left: 6px solid #1c96eb;
+  cursor: pointer;
+}
+
+.sidebarLink#btnProfile:hover,
+.sidebarLink#btnProfile:focus{
+    background: #dbeffe;
+    color: #87cc01;
+    border-left: 6px solid #87cc01;
+    cursor: pointer;
+  }
+
+  .sidebarLink#btnLogout:hover,
+  .sidebarLink#btnLogout:focus {
+    background: #dbeffe;
+    color: #ff0000;
+    border-left: 6px solid #ff0000;
+    cursor: pointer;
+  }
+
+  .block{
+    display: block;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+
+  .imgAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }

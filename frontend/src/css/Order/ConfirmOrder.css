@@ -1,0 +1,73 @@
+.orderDetailBox {
+  margin: 0px 30px 30px;
+}
+.orderDetailHeader {
+  margin: 10px 0;
+}
+.orderBoxShadow {
+  margin: 10px 0px;
+  padding: 20px 20px;
+  border: 1px solid #808080;
+  border-radius: 6px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.ordPayBody {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.ordPayDataBox {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.ordPayData {
+  width: 100%;
+}
+
+.sumPrice {
+  padding: 5px 0;
+  padding-left: 50%;
+}
+
+.SlipsImage {
+  width: 300px;
+}
+
+.hrOdrAddress {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+.hrOdrTotal {
+  border-top: 3px double #8c8b8b;
+}
+
+.ordTotalBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 50%;
+}
+
+.totalPrice {
+  display: inline;
+  color: #0c1;
+}
+
+.ordPayTitle {
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .SlipsImage {
+    width: 100%;
+  }
+  .ordTotalBox {
+    padding-left: 0px;
+  }
+  .ordPayBody {
+   display: grid;
+   grid-template-columns: none;
+ }
+}

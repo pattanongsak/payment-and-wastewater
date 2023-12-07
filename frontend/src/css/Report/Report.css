@@ -1,0 +1,104 @@
+.dashboardRow1,
+.dashboardRow2,
+.dashboardReport-sub,
+.printRow {
+  display: grid;
+}
+
+.dashboardRow1 {
+  grid-template-columns: auto auto;
+}
+.dashboardRow2 {
+  grid-template-columns: auto auto auto ;
+}
+
+.printBoxOutline{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 15px;
+  margin: 15px 0 5px;
+}
+.printBoxOutline > h3{
+  padding: 10px 20px 0px;
+}
+
+.printRow {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.printBox {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.dashboardReport {
+  text-align: center;
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.dashboardReport-sub {
+  grid-template-columns: 50% 50%;
+}
+
+.reportText {
+  font-size: 32px;
+  color: #03c722;
+}
+.reportTextColor1 {
+  color: #008d17;
+}
+.reportTextColor2 {
+  color: #e70909;
+}
+
+.selectYearReport {
+  display: flex;
+  align-items: baseline;
+  justify-content: right;
+  justify-items: center;
+  gap: 10px;
+}
+
+.reportPrintBtn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #2cb0fb;
+  max-width: 250px;
+}
+.textLinknone{
+    text-decoration: none;
+    color: #fff;
+}
+
+.reportPrintBtn:hover {
+  opacity: 0.8;
+}
+
+
+.btnIcons {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.mdIcon {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 800px) {
+  .dashboardRow1,
+  .dashboardRow2,
+  .dashboardReport-sub {
+    grid-template-columns: auto;
+  }
+
+}

@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1024px) {
+  .formBox {
+    grid-template-columns: none;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .formModel {
+    width: 70%;
+    padding: 0;
+  }
+
+  .formBox,
+  .formBoxTop {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .formModel {
+    width: 90%;
+    margin: 15% 0;
+  }
+  button.btnRegsiter {
+    width: 50%;
+  }
+  button.btnAccount {
+    width: 100%; 
+  }
+  button.btnAccount#mg20 {
+    margin-bottom: 20px;
+  }
+}

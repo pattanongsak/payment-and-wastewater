@@ -1,0 +1,80 @@
+.selectBank {
+    width: 100%;
+    margin: 10px 0;
+    text-indent: 45px;
+  }
+
+  .formSelectBank{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .bankImgPV{
+    position: absolute;
+    top: 62%;
+    left: 30px;
+    transform: translate(-50%, -50%);
+  }
+
+  .commentBox {
+    width: 100%;
+    height: 80px;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    resize: none;
+  }
+  /* file */
+  .uploader{
+   margin: 10px 0;
+  }
+  
+  .uploader > label > input[type=file] {
+      display: none;
+  }
+  
+  .uploader > label{
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 30px 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    border: 3px solid #b0b0b0;
+    transition: all 0.2s ease;
+    /* user-select: none; */
+    cursor: pointer;
+  }
+  
+  .uploader > label:hover{
+      border: 3px solid #3187c3;
+  }
+  
+  .fileTitle > h1{
+    color: #3187c3;
+  }
+  .fileTitle > h3{
+    color: #3187c3;
+  }
+  
+  .uploadImgBox{
+    padding: 30px 0 0 0;
+  }
+  
+  .SlipsImage{
+    width: 400px;
+  }
+  
+  .uploadImage{
+    width: 100px;
+  }
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .SlipsImage{
+      width: 100%;
+    }
+  }
